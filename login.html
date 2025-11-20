@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gifting Tree</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="d-flex justify-content-center my-5 align-items-center fixed-top text-decoration-underline title_container" >
+            <!-- <h1><img src="img/favicon_transparent_32x32.png" alt="">The Gifting Tree</h1> -->
+        </div>
+        <div class="bg-white p-3 rounded w-25 form_container">
+            <h2 class="d-flex justify-content-center">Login</h2>
+            <form id="login-form">
+                <div class="mb-3">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" placeholder="Enter Email" class="form-control rounded-0" name="email" id="email">
+                    <span id="email-error" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="password"><strong>Password</strong></label>
+                    <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control rounded-0">
+                    <span id="password-error" class="text-danger"></span>
+                </div>
+                <button type="button" id="login-button" class="btn btn-success w-100 rounded-0">Login</button>
+                <p>You agree with our terms and conditions.</p>
+                <a href="signup.html" class="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">Create Account</a>
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
